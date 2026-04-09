@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Innovation & Impact</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background: linear-gradient(135deg, #f5f7fa, #e4ecf7);
+      color: #123a5c;
+      overflow-x: hidden;
+    }
+
+    .container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      min-height: 100vh;
+      padding: 60px;
+      flex-wrap: wrap;
+    }
+
+    .text-section {
+      max-width: 600px;
+      animation: fadeInLeft 1.2s ease;
+    }
+
+    h1 {
+      font-size: 56px;
+      line-height: 1.2;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 18px;
+      color: #2f4f6f;
+      margin-bottom: 30px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 14px 28px;
+      background: #1f6feb;
+      color: white;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: 500;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: #1558c0;
+      transform: translateY(-2px);
+    }
+
+    .image-section {
+      animation: float 4s ease-in-out infinite;
+    }
+
+    .image-section img {
+      width: 280px;
+    }
+
+    /* Animations */
+    @keyframes fadeInLeft {
+      from {
+        opacity: 0;
+        transform: translateX(-50px);
+      }
+      to {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+
+    @keyframes float {
+      0%, 100% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(-20px);
+      }
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .container {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      h1 {
+        font-size: 36px;
+      }
+
+      .image-section img {
+        margin-top: 30px;
+        width: 200px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+    
+    <div class="text-section">
+      <h1>Transforming Ideas Into Success Stories</h1>
+      <p>
+        Discover how ETAD leverages AI and smart technologies 
+        to deliver real-world impact across public services.
+      </p>
+
+      <a href="#explore" class="btn">Explore Stories →</a>
+    </div>
+
+    <div class="image-section">
+      <!-- Replace with your robot image URL -->
+      <img src="C:\Users\noora\OneDrive - Malaysian Communications and Multimedia Commission\micrsosite\ChatGPT Image Mar 27, 2026, 05_04_27 PM.png" alt="AI Robot"/>
+    </div>
+
+  </div>
+
+</body>
+</html>
